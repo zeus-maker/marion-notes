@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../gof/${project.build.directory}/classes" />
-    <output-test url="file://$MODULE_DIR$/../gof/${project.build.directory}/test-classes" />
+    <output url="file://$MODULE_DIR$/../gof/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../gof/target/test-classes" />
     <content url="file://$MODULE_DIR$/../gof">
       <sourceFolder url="file://$MODULE_DIR$/../gof/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../gof/src/main/resources" type="java-resource" />
@@ -13,5 +13,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.22" level="project" />
   </component>
 </module>
