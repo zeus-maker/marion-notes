@@ -2,9 +2,12 @@
 
 ## 第1章 视频教程
 ### 1.1 [尚硅谷Java设计模式（图解+框架源码剖析）](https://www.bilibili.com/video/BV1Kb411W75N)
+
 ### 1.2 网盘资料
 
 ### 1.3 同学笔记
+
+### [【狂神说Java】通俗易懂的23种设计模式教学（停更）](https://www.bilibili.com/video/BV1mc411h719)
 
 ## 第2章 电子书籍
 1. [《秒懂设计模式》](/)
