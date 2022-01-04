@@ -2,7 +2,8 @@ package com.marion.gof.factory.sample;
 
 public class DrinksFactory {
 
-    public DrinksService productDrinks(Class className) {
+    public DrinksService productDrinks(Class<?> className) {
+
         try {
             Object instance = Class.forName(className.getName()).newInstance();
             return (DrinksService) instance;
@@ -13,6 +14,7 @@ public class DrinksFactory {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+
         return null;
     }
 
