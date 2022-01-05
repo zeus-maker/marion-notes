@@ -30,6 +30,7 @@ public class Client2 {
          * @see BuyProductStrategy
          * @see RefundProductStrategy
          * 3. 定义上下文
+         * @see ProductContext
          */
         OperateType operateType = OperateType.fromValue(type);
 
