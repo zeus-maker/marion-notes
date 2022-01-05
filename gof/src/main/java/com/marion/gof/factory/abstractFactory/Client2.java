@@ -4,34 +4,13 @@ import com.marion.gof.enums.OperateType;
 import com.marion.gof.factory.abstractFactory.strategy.BuyProductStrategy;
 import com.marion.gof.factory.abstractFactory.strategy.ProductContext;
 import com.marion.gof.factory.abstractFactory.strategy.RefundProductStrategy;
-
-public class Client {
+/**
+ * 策略模式+抽象工厂模式购买商品案例
+ */
+public class Client2 {
 
     public static void main(String[] args) {
-        /**
-         * 小明购买苹果手机和苹果电脑：抽象工厂方法
-         * 1. 定义抽象工厂，定义生产哪些产品
-         * @see BrandFactory
-         * 2. 定义具体工厂
-         * 3. 定义抽象产品1
-         * @see Phone
-         * 4. 定义具体产品1
-         * 5. 定义抽象产品2
-         * @see Computer
-         * 6. 定义具体产品2
-         */
 
-        AppleFactory appleFactory = new AppleFactory();
-        appleFactory.produceComputer().use();
-        appleFactory.producePhone().use();
-
-        MiFactory miFactory = new MiFactory();
-        miFactory.produceComputer().use();
-        miFactory.producePhone().use();
-
-        /**
-         * 策略模式+抽象工厂模式购买商品案例
-         */
         System.out.println("==============策略模式+抽象工厂模式购买商品案例=============");
 
         // 购买
@@ -40,7 +19,6 @@ public class Client {
         // 退款
         doProduct(1, 1, 2);
     }
-
 
     private static void doProduct(int brandType, int level, int type) {
         /**
