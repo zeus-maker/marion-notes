@@ -1,9 +1,10 @@
-package com.marion.gof.factory.abstractFactory;
+package com.marion.gof.factory.abstractFactory.demo2;
 
 import com.marion.gof.enums.OperateType;
-import com.marion.gof.factory.abstractFactory.strategy.BuyProductStrategy;
-import com.marion.gof.factory.abstractFactory.strategy.ProductContext;
-import com.marion.gof.factory.abstractFactory.strategy.RefundProductStrategy;
+import com.marion.gof.factory.abstractFactory.demo2.strategy.BuyProductStrategy;
+import com.marion.gof.factory.abstractFactory.demo2.strategy.ProductContext;
+import com.marion.gof.factory.abstractFactory.demo2.strategy.RefundProductStrategy;
+
 /**
  * 策略模式+抽象工厂模式购买商品案例
  */
@@ -23,9 +24,12 @@ public class Client2 {
     private static void doProduct(int brandType, int level, int type) {
         /**
          * 策略模式+抽象工厂模式购买商品案例
-         * 1. 选择不同品牌不同商品，购买【苹果】+【手机】
-         * 2. 定义抽象策略1（获得品牌）
-         * 3. 定义抽象策略2（获得产品）
+         * 1. 定义抽象策略（商品操作）
+         * @see com.marion.gof.factory.abstractFactory.demo2.strategy.ProductStrategy
+         * 2. 定义具体策略（购买、退款）
+         * @see BuyProductStrategy
+         * @see RefundProductStrategy
+         * 3. 定义上下文
          */
         OperateType operateType = OperateType.fromValue(type);
 

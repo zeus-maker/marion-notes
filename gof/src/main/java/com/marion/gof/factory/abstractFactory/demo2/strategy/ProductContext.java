@@ -1,4 +1,4 @@
-package com.marion.gof.factory.abstractFactory.strategy;
+package com.marion.gof.factory.abstractFactory.demo2.strategy;
 
 import com.marion.gof.factory.abstractFactory.AppleFactory;
 import com.marion.gof.factory.abstractFactory.BrandFactory;
