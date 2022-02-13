@@ -2,9 +2,9 @@
 
 ## 学习资料
 
-### 1. 学习视频
+### 1. [王道操作系统视频](https://www.bilibili.com/video/BV1YE411D7nH?p=1)
 
-### 2. 学习笔记
+### 2. [学习笔记](https://blog.csdn.net/weixin_43914604/article/details/104415990)
 
 ## 第 1 章 计算机系统概述
 （2小时）
