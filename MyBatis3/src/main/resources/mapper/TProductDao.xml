@@ -11,7 +11,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="TProductMap">
         select
-          id, title, inventory
+        id, title, inventory
         from t_product
         where id = #{id}
     </select>
@@ -19,7 +19,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="TProductMap">
         select
-          id, title, inventory
+        id, title, inventory
         from t_product
         <where>
             <if test="id != null">
@@ -62,7 +62,7 @@
         insert into t_product(title, inventory)
         values
         <foreach collection="entities" item="entity" separator=",">
-        (#{entity.title}, #{entity.inventory})
+            (#{entity.title}, #{entity.inventory})
         </foreach>
     </insert>
 

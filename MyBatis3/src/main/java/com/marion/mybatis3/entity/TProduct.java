@@ -7,7 +7,6 @@ import java.io.Serializable;
 
 /**
  * (TProduct)实体类
- *
  * @author makejava
  * @since 2022-01-04 16:02:47
  */

@@ -7,7 +7,6 @@ import java.io.Serializable;
 
 /**
  * (TUser)实体类
- *
  * @author makejava
  * @since 2022-01-04 13:09:48
  */
@@ -17,9 +16,9 @@ public class TUser implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    
+
     private String name;
-    
+
     private Integer age;
 
 

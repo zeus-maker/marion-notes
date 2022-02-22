@@ -21,7 +21,7 @@ public class ProductContext {
             brand = new MiFactory();
         } else {
             System.out.println("没有该品牌");
-            return ;
+            return;
         }
 
         Product product;
@@ -31,7 +31,7 @@ public class ProductContext {
             product = brand.produceComputer();
         } else {
             System.out.println("没有该种类");
-            return ;
+            return;
         }
 
         strategy.doProduct(brand, product);

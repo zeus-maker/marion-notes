@@ -12,7 +12,6 @@ import javax.annotation.Resource;
 
 /**
  * (TUser)表服务实现类
- *
  * @author makejava
  * @since 2022-01-04 13:09:48
  */
@@ -23,7 +22,6 @@ public class TUserServiceImpl implements TUserService {
 
     /**
      * 通过ID查询单条数据
-     *
      * @param id 主键
      * @return 实例对象
      */
@@ -34,9 +32,8 @@ public class TUserServiceImpl implements TUserService {
 
     /**
      * 分页查询
-     *
-     * @param tUser 筛选条件
-     * @param pageRequest      分页对象
+     * @param tUser       筛选条件
+     * @param pageRequest 分页对象
      * @return 查询结果
      */
     @Override
@@ -47,7 +44,6 @@ public class TUserServiceImpl implements TUserService {
 
     /**
      * 新增数据
-     *
      * @param tUser 实例对象
      * @return 实例对象
      */
@@ -59,7 +55,6 @@ public class TUserServiceImpl implements TUserService {
 
     /**
      * 修改数据
-     *
      * @param tUser 实例对象
      * @return 实例对象
      */
@@ -71,7 +66,6 @@ public class TUserServiceImpl implements TUserService {
 
     /**
      * 通过主键删除数据
-     *
      * @param id 主键
      * @return 是否成功
      */

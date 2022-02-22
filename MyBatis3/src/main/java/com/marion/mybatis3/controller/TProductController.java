@@ -11,7 +11,6 @@ import javax.annotation.Resource;
 
 /**
  * (TProduct)表控制层
- *
  * @author makejava
  * @since 2022-01-04 16:02:47
  */
@@ -26,9 +25,8 @@ public class TProductController {
 
     /**
      * 分页查询
-     *
-     * @param tProduct 筛选条件
-     * @param pageRequest      分页对象
+     * @param tProduct    筛选条件
+     * @param pageRequest 分页对象
      * @return 查询结果
      */
     @GetMapping
@@ -38,7 +36,6 @@ public class TProductController {
 
     /**
      * 通过主键查询单条数据
-     *
      * @param id 主键
      * @return 单条数据
      */
@@ -49,7 +46,6 @@ public class TProductController {
 
     /**
      * 新增数据
-     *
      * @param tProduct 实体
      * @return 新增结果
      */
@@ -60,7 +56,6 @@ public class TProductController {
 
     /**
      * 编辑数据
-     *
      * @param tProduct 实体
      * @return 编辑结果
      */
@@ -71,7 +66,6 @@ public class TProductController {
 
     /**
      * 删除数据
-     *
      * @param id 主键
      * @return 删除是否成功
      */

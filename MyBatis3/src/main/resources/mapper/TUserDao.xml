@@ -11,7 +11,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="TUserMap">
         select
-          id, name, age
+        id, name, age
         from t_user
         where id = #{id}
     </select>
@@ -19,7 +19,7 @@
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="TUserMap">
         select
-          id, name, age
+        id, name, age
         from t_user
         <where>
             <if test="id != null">
@@ -62,7 +62,7 @@
         insert into t_user(name, age)
         values
         <foreach collection="entities" item="entity" separator=",">
-        (#{entity.name}, #{entity.age})
+            (#{entity.name}, #{entity.age})
         </foreach>
     </insert>
 

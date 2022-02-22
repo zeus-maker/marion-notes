@@ -6,7 +6,6 @@ import org.springframework.data.domain.PageRequest;
 
 /**
  * (TProduct)表服务接口
- *
  * @author makejava
  * @since 2022-01-04 16:02:48
  */
@@ -14,7 +13,6 @@ public interface TProductService {
 
     /**
      * 通过ID查询单条数据
-     *
      * @param id 主键
      * @return 实例对象
      */
@@ -22,16 +20,14 @@ public interface TProductService {
 
     /**
      * 分页查询
-     *
-     * @param tProduct 筛选条件
-     * @param pageRequest      分页对象
+     * @param tProduct    筛选条件
+     * @param pageRequest 分页对象
      * @return 查询结果
      */
     Page<TProduct> queryByPage(TProduct tProduct, PageRequest pageRequest);
 
     /**
      * 新增数据
-     *
      * @param tProduct 实例对象
      * @return 实例对象
      */
@@ -39,7 +35,6 @@ public interface TProductService {
 
     /**
      * 修改数据
-     *
      * @param tProduct 实例对象
      * @return 实例对象
      */
@@ -47,7 +42,6 @@ public interface TProductService {
 
     /**
      * 通过主键删除数据
-     *
      * @param id 主键
      * @return 是否成功
      */
