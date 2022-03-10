@@ -16,4 +16,11 @@
 
 ### [Redis框架从入门到学精（全）](https://blog.csdn.net/weixin_47872288/article/details/118410080)
 
-*XMind - Trial Version*
+## 四、实战项目
+1. [Java项目《谷粒商城》Java架构师 | 微服务 | 大型电商项目](https://www.bilibili.com/video/BV1np4y1C7Yf?p=225)
+
+## 五、常用网站
+1. [redis官网](https://redis.io/)
+2. [Redis 命令参考](http://redisdoc.com/)
+3. [Spring Data Redis](https://docs.spring.io/spring-data/redis/docs/2.4.15/reference/html/#reference)
+4. [Redisson分布式锁](https://github.com/redisson/redisson/wiki/%E7%9B%AE%E5%BD%95)
