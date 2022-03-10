@@ -1,5 +1,12 @@
 ## 目录
 
+## 社交主页
+- 微信公众号：【后端研发Marion】可加微信
+- 今日头条账号：[后端研发Marion](https://www.toutiao.com/c/user/token/MS4wLjABAAAAChrLQhHvIVE31-TLHrkth8_9uQLhosRHQmKC5jkat70/)
+- B站UP账号：[后端研发Marion](https://space.bilibili.com/269097482)
+- CSDN账号：[后台研发Marion](https://blog.csdn.net/luomao2012)
+- 个人博客网站：[www.blog.marion.vip](http://blog.marion.vip/#/)
+
 ## 第1章 介绍
 1. 整理JAVA相关知识
 2. 参考网上视频、电子书籍、博客文章、开源源码
@@ -31,10 +38,3 @@
 4. 博客文章
 5. 思维导图
 6. 开源源码
-
-## 社交主页
-- 今日头条账号：[后端研发Marion](https://www.toutiao.com/c/user/token/MS4wLjABAAAAChrLQhHvIVE31-TLHrkth8_9uQLhosRHQmKC5jkat70/)
-- B站UP账号：[后端研发Marion](https://space.bilibili.com/269097482)
-- CSDN账号：[后台研发Marion](https://blog.csdn.net/luomao2012)
-- 微信公众号：后端研发Marion
-- 个人博客网站：[www.blog.marion.vip](http://blog.marion.vip/#/)
