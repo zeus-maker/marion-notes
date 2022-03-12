@@ -1,4 +1,4 @@
-## 一、目录说明
+## 一、JAVA架构师笔记
 - [1-JAVA基础](/1-JAVA基础)
 - [2-MySQL](/2-MySQL)
 - [3-Spring全家桶](/3-Spring全家桶)
