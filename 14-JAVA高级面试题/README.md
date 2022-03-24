@@ -3,7 +3,7 @@
 
 ## 参考地址[【DevBooks】](https://gitee.com/souyunku/DevBooks)
 
-## 第1章 JAVA相关面试题（300道）
+## 第1章 JAVA相关面试题（3000道）
 
 ### 1. JAVA面试题1
 
