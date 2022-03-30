@@ -14,7 +14,11 @@
 - [13-计算机网络](/13-计算机网络)
 - [14-JAVA高级面试题](/14-JAVA高级面试题)
 - [15-深度学习](/15-深度学习)
-
+- [16-精选文章](/16-精选文章)
+- [17-技术年货](/17-技术年货)
+- [18-Go语言](/18-Go语言)
+- [19-JAVA工程师成神之路](/19-JAVA工程师成神之路)
+  
 ## 二、我的社交资料
 - 今日头条账号：[后端研发Marion](https://www.toutiao.com/c/user/token/MS4wLjABAAAAChrLQhHvIVE31-TLHrkth8_9uQLhosRHQmKC5jkat70/)
 - B站UP账号：[后端研发Marion](https://space.bilibili.com/269097482)
