@@ -22,7 +22,7 @@
 - 微信公众号：【后端研发Marion】加微信进JAVA技术交流群
 
 <p align=center>
-    <img src="./resources/images/qrcode.jpg" width="500" />
+    <img src="./resources/images/qrcode.jpg" width="200" />
 </p>
 
 # [【JAVA工程师成神之路】](https://hollischuang.gitee.io/tobetopjavaer/#/)
