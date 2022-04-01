@@ -32,6 +32,10 @@
   
 # [【JAVA工程师成神之路】](https://hollischuang.gitee.io/tobetopjavaer/#/)
 
+<p align=center>
+    <img src="./resources/images/roadmap.jpeg" width="500"/>
+</p>
+
 ## 基础篇
 
 ### 面向对象
