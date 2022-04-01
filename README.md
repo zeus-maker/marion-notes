@@ -1,4 +1,4 @@
-### 我的社交资料
+## 我的社交资料
 - 今日头条账号：[后端研发Marion](https://www.toutiao.com/c/user/token/MS4wLjABAAAAChrLQhHvIVE31-TLHrkth8_9uQLhosRHQmKC5jkat70/)
 - B站UP账号：[后端研发Marion](https://space.bilibili.com/269097482)
 - CSDN账号：[后台研发Marion](https://blog.csdn.net/luomao2012)
@@ -8,7 +8,7 @@
 | :----------------------------------------------: | :-----------------------------------------------: |
 | <img src="./resources/images/qrcode.jpg" width="200" /> | <img src="./resources/images/wx.jpg" width="200" /> |
 
-### JAVA架构师笔记
+## JAVA架构师笔记
 - [01-JAVA基础](/01-JAVA基础)
 - [02-MySQL](/02-MySQL)
 - [03-Spring全家桶](/03-Spring全家桶)
