@@ -1,4 +1,4 @@
-# 《Java高并发核心编程(卷1) : NIO、 Netty、 Redis、 ZooKeeper》
+# [《Java高并发核心编程(卷1) : NIO、 Netty、 Redis、 ZooKeeper》](https://weread.qq.com/web/reader/e6d323b0723b6029e6d1c55)
 
 ## 第1章 高并发时代的必备技能
 
