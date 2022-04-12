@@ -5,6 +5,7 @@ import com.marion.mybatis3.service.TProductService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -71,6 +72,7 @@ public class TProductController {
      */
     @DeleteMapping
     public ResponseEntity<Boolean> deleteById(Integer id) {
+        MultiValueMap
         return ResponseEntity.ok(this.tProductService.deleteById(id));
     }
 
