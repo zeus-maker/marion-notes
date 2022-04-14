@@ -1,6 +1,6 @@
 # 高性能Java架构：核心原理与案例实战
 
-<img src="40.png" width="70%" alt=""/>
+<img src="40.png" width="60%" alt=""/>
 
 ## 第1章 高性能Java核心知识概述
 
