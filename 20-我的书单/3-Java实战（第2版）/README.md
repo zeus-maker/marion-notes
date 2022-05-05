@@ -1,5 +1,5 @@
 # [Java实战（第2版）](https://weread.qq.com/web/reader/6da323e071c956186da64ackc81322c012c81e728d9d180)
-<p><img src="Java实战（第2版）.png" alt=""></p>
+<p><img src="Java实战（第2版）.png" alt="Java实战（第2版）" target="_blank"></p>
 
 ## 第一部分 基础知识
 
