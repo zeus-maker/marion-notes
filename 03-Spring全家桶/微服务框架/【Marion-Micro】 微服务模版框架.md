@@ -291,15 +291,123 @@
 	- 4. 定义日志
 	- 5. 持久化到MySQL
 
-- 4. 接入Kafka
-- 5. 接入ELK
-- 6. 接入Prometheus+Grafana
+- 4. 接入Kafka消息中间件
+- 5. 接入ELK，做日志系统
+- 6. 接入Prometheus+Grafana监控告警
+- 7. 接入xxl-job分布式定时任务框架
 
 ## 四、代码设计
 
+### 1. 全局异常定义与捕获，定义公共错误返回
+
+- 1. @RestControllerAdvice
+
+	- 1. SpringBoot全局异常，返回JSON数据
+
+- 2. @ExceptionHandler
+- 3. 定义错误类ResponseException
+- 4. 自定义异常extends RuntimeException
+- 5. 定义400错误返回，200正常返回
+- 6. Junit5单元测试和MockMvc测试接口
+
+	- 1. SpringBoot 测试及 MockMvc的使用
+
+### 2. 整合swagger接口文档
+
+- 【CSDN】java集成Swagger的详细步骤
+
+- 总结错误 No mapping for GET /swagger-ui.html
+
+- 什么是swagger，一篇带你入门
+
+### 3. 配置线程池，异步线程池
+
+- 【CSDN】springboot配置多个线程池
+
+- SpringBoot 线程池 配置使用
+
+- 1. @EnableAsync
+- 2. 创建ThreadPoolTaskExecutor
+- 3. 线程池调优
+
+### 4. 数据主从配置，Durid数据库连接池配置与监控
+
+- 【github】Druid Spring Boot Starter
+
+- maven配置阿里云镜像的两种方式
+
+- druid监控配置
+
+### 5. 数据库操作工具类，查询分页类公共库封装
+
+### 6. 整理Kafka消息中间件
+
+- 【CSDN】Springboot整合kafka
+
+- 1. kafka启动命令
+
+	- zookeeper-server-start -daemon /opt/homebrew/etc/kafka/zookeeper.properties & kafka-server-start /opt/homebrew/etc/kafka/server.properties
+
+- 2. kafka控制台创建topic
+
+	- kafka 命令行命令大全
+
+	- 1. 查看topic
+
+		- kafka-topics --bootstrap-server :9092  topic --list
+
+	- 2. 创建topic
+
+		- kafka-topics --bootstrap-server :9092 --create --replication-factor 1 --partitions 1 --topic demo
+
+	- 3. 删除topic
+
+### 7. 集成sentinel
+
+- 1. 参考文档
+
+	- sentinel
+
+- 2. 操作流程
+
+	- 1. 启动sentinel命令：
+
+		- nohup java  -server -Xms64m -Xmx256m  -Dserver.port=8849 -Dcsp.sentinel.dashboard.server=localhost:8849 -Dproject.name=sentinel-dashboard -jar /opt/www/spring-cloud-alibaba/sentinel-dashboard/sentinel-dashboard-1.8.0.jar &
+
+	- 2. 引入pom
+	- 3. yml配置
+	- 4. 控制台对接口限流测试
+	- 5. 限流规则持久化
+
+### 8. 集成Prometheus+Grafana实现监控告警
+
+### 9. 集成xxl-job
+
+- 1. 参考资料
+
+	- XXL-JOB中文文档
+
+	- XXL-JOB的使用(详细教程)
+
+- 2. 操作流程
+
+	- 1. 下载源码
+	- 2. 创建数据库
+	- 3. 启动后台
+
+		- 1. http://localhost:8000/xxl-job-admin/toLogin
+
+	- 4. 启动执行器
+
 ## 五、业务设计
 
-## 项目部署
+### 1. 微服务模块拆分、领域驱动设计DDD
+
+### 2. 数据库ER建模，代码生成器
+
+## 六、数据中台
+
+## 七、项目部署
 
 ### 1. 测试多模块打包
 
@@ -315,5 +423,7 @@
 - 2.发布到Gitee
 
 ### 4. Jinkens部署
+
+### 5. K8S部署
 
 *XMind - Trial Version*
