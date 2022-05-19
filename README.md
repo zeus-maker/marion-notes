@@ -10,12 +10,12 @@
 
 ## JAVA架构师笔记
 - [01-JAVA基础](/01-JAVA基础)
-- [02-MySQL](/02-MySQL)
-- [03-Spring全家桶](/03-Spring全家桶)
+- [02-MySQL](/03-MySQL)
+- [03-Spring全家桶](/05-Spring框架)
 - [04-Redis](/04-Redis])
-- [05-Kafka](/05-Kafka)
+- [05-Kafka](/07-Kafka)
 - [06-设计模式](/06-设计模式)
-- [07-JVM](/07-JVM)
+- [07-JVM](/02-JVM)
 - [08-Zookeeper](/08-Zookeeper)
 - [09-Netty](/09-Netty)
 - [10-大数据](/10-大数据)
