@@ -9,7 +9,8 @@
  - [https://blog.csdn.net/PorkBird/article/details/113666542](https://blog.csdn.net/PorkBird/article/details/113666542)
 
 ## 第2章 电子书籍
-1. [《JAVA编程的逻辑》](/)
+1. [《JAVA编程的逻辑》](/https://weread.qq.com/web/reader/b51320f05e159eb51b29226)
+2. [JAVA编程实战（第2版）](/https://weread.qq.com/web/reader/6da323e071c956186da64ac)
 
 ## 第3章 博客文章
 
