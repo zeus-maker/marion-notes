@@ -1,4 +1,4 @@
-# [《Flink内核原理与实现》](https://weread.qq.com/web/reader/1b932790723982d91b9bd8dke4d32d5015e4da3b7fbb1fa)
+# 《Flink内核原理与实现》
 
 ## 第1章Flink入门
 
