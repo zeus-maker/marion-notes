@@ -1,5 +1,5 @@
-# 尚硅谷大数据Spark教程从入门到精通
-（31小时）
+# [尚硅谷大数据Spark教程从入门到精通
+（31小时）](https://www.bilibili.com/video/BV11A411L7CK?p=1)
 
 ## SparkCore
 
